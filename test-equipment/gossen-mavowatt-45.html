@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Gossen Metrawatt Mavowatt 45 power analyzer, a 3-channel wattmeter capable of power monitoring, FFT and transient analysis">
+   <meta name="author" content="Tiziano Bielli">
+   <link rel="stylesheet" href="../style.css">
+   <link rel="icon" type="image/x-icon" href="../favicon.ico">
+   <title>TB - Mavowatt 45 power analyzer</title>
+</head>
+<body>
+<div class="wrapper">
+
+
+   <div class="header">
+      <mark><a href="../index.html"><b>&nbspTIZIANO BIELLI&nbsp</b></a></mark>
+   </div>
+
+
+
+   <div class="article">
+      <h1>GOSSENT METRAWATT MAVOWATT 45:</h1>
+      <p>
+         A three-phase wattmeter capable of power monitoring, FFT and transient analysis.
+      </p>
+      <div class="imgCenter">
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-1.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-1-small.jpg" alt="mavowatt 45 wattmeter"></a>
+      </div>
+      <h2>REPAIR:</h2>
+      <p>
+         When arrived it would boot only after power cycling multiple times, but no readings were showed.<br>
+         After tearing it apart I found the backup battery dead, but this should be needed only to keep in memory the settings and to run the RTC.
+         After some visual inspection I noticed that the bigger filtering capacitor present on the power supply had a broken solder joint! Flushing the broken solder 
+         joints and replacing the dead battery (SL-389) with a “temporary” CR2025 that brought it back to life!<br>
+         After ensuring the complete functionality I ordered a SL-750 (3.6V 1.1Ah 85°C not rechargeable) battery to replace the previus one.
+      </p>
+      <div class="imgCenter">
+         <a href="gossen-mavowatt-45/2022-mavowatt-45-powe-supply.jpg" target="blank"><img src="gossen-mavowatt-45/2022-mavowatt-45-powe-supply-small.jpg" alt="mavowatt 45 power supply"></a>
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-internal.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-internal-small.jpg" alt="mavowatt 45 internal"></a>
+      </div>
+      <h2>TEARDOWN:</h2>
+      <p>
+         Starting from the power supply, which consists in a step-down insulation transformer, bridge rectifier, 5V regulator, some caps and fuses. It 
+         outputs 5V regulated, 13V non regulated and 18Vac. DC voltages are used by the front panel (all digital). 18VAC are feed to three small insulation 
+         transformers (5.5kV insulation) that supply power to the analog section (sampling boards) and ensure the necessary phase-phase insulation (one board per phase).
+      </p>
+      <p>   
+         The three small insulation transformers are kept in position by screws  and nuts (no washer). All of them were loose, one of the nuts was lying 
+         around. Not nice for an instrument intended to operate in high energy circuits.
+      </p>
+      <p>
+         Each channel (phase) uses a 16bit 50kHz stereo ADC to sample the input signal. The digitised signal is then sent to the front panel 
+         microcontroller via insulation optocouplers.
+      </p>
+      <p>   
+         There is no shielding covering the sensible circuits but this gave me no problems, even in noisy environments worked well (manual specifies that it
+          shouldn&#39t be used in proximity of high electric fields).   
+      </p>
+      <div class="imgCenter">
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-sampling-board-transformers.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-sampling-board-transformers-small.jpg" alt="mavowatt 45 sampling board transformers"></a>
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-sampling-board.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-sampling-board-small.jpg" alt="mavowatt 45 sampling board"></a>
+      </div>
+      <h2>REVIEW:</h2>
+      <p>
+         After all those years is still well within specs, no calibration required (luckily for me since there&#39s no calibration procedure).
+      </p>
+      <p>
+         All three channels are totally insulated, channel 1 will set the measurement period/frequency and all six measurement values are integrated 
+         simultaneously. This is a convenient feature when you need to measure transformers ratio, efficiency, power supply&#39s efficiency (you can measure AC with one 
+         channel and DC with another) and much more.
+      </p>
+      <p>
+         The interface is not that intuitive, after getting used to it the configuration process remains slow. There are some bugs, during important measurement 
+         it is better not to touch anything. Once I was measuring the energy consumption of a device, switching from the energy display to FFT caused 
+         a massive error in the energy counter (it went from tens of Wh to hundreds of MWh!).<br>
+         That&#39s easily avoidable thanks to 4 custom selections where you can choose all the values you need. These values are saved in the buffer 
+         and can be recalled in a live graph/list.<br>
+         FFT, under/over voltage and spike analyzer are optional, and I haven&#39t used them yet.
+      </p>
+      <div class="imgCenter">
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-digital-1.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-digital-1-small.jpg" alt="mavowatt 45 digital front panel"></a>
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-digital-2.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-digital-2-small.jpg" alt="mavowatt 45  digital front panel"></a>
+         <a href="gossen-mavowatt-45/2023-mavowatt-45-input-attenuation.jpg" target="blank"><img src="gossen-mavowatt-45/2023-mavowatt-45-input-attenuation-small.jpg" alt="mavowatt 45 input attenuation"></a>
+      </div>
+   </div> 
+
+
+
+   <div class="navigation">
+      <nav><ul>
+      <li class="navHome"><a href="../index.html"><b>HOME</b></a></li>
+      <li><a href="../about-me.html"><b>ABOUT ME</b></a></li>
+      <li><a href="../projects.html"><b>PROJECTS</b></a></li>
+      <li><a href="../test-equipment.html"><b>EQUIPMENTS</b></a>
+         <ul>
+            <li><a href="100kv-test-transformer.html">100kV test transformer</a></li>
+            <li><a href="gossen-mavowatt-45.html">Mavowatt 45 power analyzer</a></li>
+            <li><a href="potential-transformers.html">PT</a></li>
+         </ul>
+      </li>
+      <li><a href="../experiments.html"><b>EXPERIMENTS</b></a></li>
+      </ul></nav>
+   </div>
+
+
+
+   <div class="footer">
+      <a href="../terms.html">terms</a></h3>
+   </div>
+
+
+
+</div>
+</body>
+</html>
