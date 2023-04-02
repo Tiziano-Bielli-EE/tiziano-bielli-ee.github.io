@@ -61,6 +61,7 @@ body{
        "header  header"
      "sidebar content"
      "footer  footer";
+   height: 100vh;
  }
  
  .wrapper > div{
