@@ -1,4 +1,4 @@
-fetch('https://raw.githubusercontent.com/Tiziano-Bielli-EE/tiziano-bielli-ee.github.io/main/nav/nav_equipments.html')
+fetch('nav_equipments.html')
 .then(res => res.text())
 .then(text => {
     let oldelem = document.querySelector("script#replace_with_navbar");
