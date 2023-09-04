@@ -9,8 +9,8 @@ body{
  .header {
    grid-area: header;
    background-image: url(Background-head.jpg);
-   padding: 40px;
-   font-size: 40px;
+   padding: 15px;
+   font-size: 10px;
    text-align: center;
  }
  .header > mark{
