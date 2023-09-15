@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/index.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/safety.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/projects.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/test-equipment.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/experiments.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/about-me.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/terms.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tiziano-bielli-ee.github.io/privacy.html</loc>
+  <lastmod>2023-09-14T15:30:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

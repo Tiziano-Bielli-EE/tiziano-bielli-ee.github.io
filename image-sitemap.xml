@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+	xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/home/TB-STAMP2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/home/cover-projects.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/home/cover-equipment-repairs.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/home/cover-experiments.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/index.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/safety.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/projects.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/cover-pk-rms-wattmeter.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/cover-ac-power-supply.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/cover-thermal-chamber2.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/test-equipment.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/cover-100kvtrafo.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/cover-mavowatt-45.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-DS1464-internal1-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-DS1464-internal1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-ELM-327-internal-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-ELM-327-internal.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-elm327-odb2-current-consumption-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/miscellaneous/2023-elm327-odb2-current-consumption.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/experiments.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/about-me.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2020-me-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2016-first-power-supply-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2017-mini-locomotive-rheostat-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2019-big-variable-power-supply-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2018-first-mot-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2016-first-power-supply.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2017-mini-locomotive-rheostat.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2019-big-variable-power-supply.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/about-me/2018-first-mot.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-front-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-internal-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-pcb-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-schematic-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-SimpleSchem-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-front.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-internal.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-pcb.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-schematic.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2023-pkrms-SimpleSchem.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-front-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-internal1-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-internal2-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2023--schematic-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-front.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-internal1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2021-ac-ps-internal2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/projects/ac-power-supply/2023--schematic.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-100kvtrafo1-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2020-100kvtrafo-220vloadTest-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-targa1-100kvtrafo-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-targa2-100kvtrafo-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2019-rivista-100kvtrafo-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/TZG-100_5a-no-load-test.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/TZG-100_5a-short-test.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-100kvtrafo1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2020-100kvtrafo-220vloadTest.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-targa1-100kvtrafo.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2022-targa2-100kvtrafo.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/100kv-test-transformer/2019-rivista-100kvtrafo.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>0.8</priority>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-1-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2022-mavowatt-45-powe-supply-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-internal-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-sampling-board-transformers-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-sampling-board-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-digital-1-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-digital-2-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-input-attenuation-small.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2022-mavowatt-45-powe-supply.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-internal.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-sampling-board-transformers.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-sampling-board.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-digital-1.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-digital-2.jpg</image:loc>
+	</image:image>
+	<image:image>
+			<image:loc>https://tiziano-bielli-ee.github.io/test-equipment/gossen-mavowatt-45/2023-mavowatt-45-input-attenuation.jpg</image:loc>
+	</image:image>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/terms.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://tiziano-bielli-ee.github.io/privacy.html</loc>
+	<lastmod>2023-09-15T21:19:48+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
