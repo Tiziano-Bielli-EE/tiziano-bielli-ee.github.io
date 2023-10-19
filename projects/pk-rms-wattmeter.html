@@ -21,7 +21,7 @@
 
 
    <div class="article">
-      <h1>Pk-TRMS WATTMETER:</h1>
+      <h1>Pk-RMS WATTMETER:</h1>
       <p >
          PK-RMS is a low price high speed programmable wattmeter capable of measuring voltages, currents, powers and 
          frequencies 50 times per second. Readings can be saved to microSD in real time (csv format).
@@ -31,20 +31,27 @@
          <a href="pk-rms-wattmeter/2023-pkrms-internal.jpg" target="blank"><img src="pk-rms-wattmeter/2023-pkrms-internal-small.jpg" alt="PkRMS strum internal"></a>
       </div>
       <p>
-         This first prototype is based on a "Arduino Nano Every" development board (ATmega4809).
+         This first prototype is based on an "Arduino Nano Every" development board (ATmega4809).<br>
+         The internal 10bit ADC is used to sample the attenuated voltage, coming from the voltage divider, the current, coming from the CT, and the 0.6V reference voltage.<br>
+         The ADC uses the internal 1.1V reference and since it can't measure negative voltages the AC inputs needs to be offset by the 0.6V reference (close to half of 1.1V).
       </p>
       <div class="imgCenter">
          <a href="pk-rms-wattmeter/2022-pkrms-pcb.jpg" target="blank"><img src="pk-rms-wattmeter/2022-pkrms-pcb-small.jpg" alt="PkRMS strum internal"></a>
-         <a href="pk-rms-wattmeter/2023-pkrms-schematic.jpg" target="blank"><img src="pk-rms-wattmeter/2023-pkrms-schematic-small.jpg" alt="PkRMS simplified schematic"></a>
+         <a href="pk-rms-wattmeter/2023-pkrms-schematic.jpg" target="blank"><img src="pk-rms-wattmeter/2023-pkrms-schematic-small.jpg" alt="PkRMS schematic"></a>
       </div>
       <div class="imgCenter">
-         <a href="pk-rms-wattmeter/2023-pkrms-SimpleSchem.jpg" target="blank"><img src="pk-rms-wattmeter/2023-pkrms-SimpleSchem-small.jpg" alt="PkRMS simplified schematic" style="width: 50%; max-width: 500px;"></a>
+            <a href="pk-rms-wattmeter/2023-pkrms-SimpleSchem.jpg" target="blank"><img src="pk-rms-wattmeter/2023-pkrms-SimpleSchem-small.jpg" alt="PkRMS simplified schematic" style="width: 50%; max-width: 500px;"></a>
       </div>
+      <p>
+         The meter synchronize to the AC input by counting the zero crosses. Depending by the selected speed it will wait for a certain number of zero crosses before outputting a reading. If no zero voltage cross is detected within a certain time limit (DC input) it will output the reading and start a new sampling cycle.
+      </p>
       <div class="imgCenter">
-         <a href="pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg.jpg" target="blank"><img src="pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg-small.jpg" alt="PkRMS HighVoltageFlashoverRecordjpg" style="width: 60%; max-width: 1000px;"></a>
+         <div class="imgCenterBox">
+            <a href="pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg.jpg" target="blank"><img src="pk-rms-wattmeter/2022-pkrms-HighVoltageFlashoverRecordjpg-small.jpg" alt="PkRMS HighVoltageFlashoverRecordjpg" style="width: 60%; max-width: 1000px;">
+            <div class="imgCenterText-bottom"><h4>Recorded Data Example</h4></div></a></div>
       </div>
       <p class="date">
-         Published: 2023-04-01
+         Published: 2023-04-01, Last edit: 2023-10-13
       </p>
    </div> 
 
