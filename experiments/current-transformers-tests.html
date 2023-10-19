@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="Economical current transform often comes without all the necessary accuracy specifications, in this page I'll describe how I test current transformer and I'll show the actual performance of some easily available current transformers">
+   <meta name="author" content="Tiziano Bielli">
+   <link rel="stylesheet" href="../style.css">
+   <link rel="icon" type="image/x-icon" href="../favicon.ico">
+   <title>TB - CTs accuracy</title>
+</head>
+<body>
+<div class="wrapper">
+
+
+   <div class="header">
+      <a href="../index.html"><img src="../home/TB-STAMP2.jpg" alt="TIZIANO BIELLI"></a>
+   </div>
+
+
+
+   <div class="article">
+      <h1>CURRENT TRANSFORMERS ACCURACY:</h1>
+      <p>
+         Current transformers are devices used to scale down currents that otherwise would be to high to measure. In this page I'll show the results of some performance tests that I did over some current transformers.
+      </p>
+      <h2>TEST PARAMETERS:</h2>
+      <p>
+         When chosing an AC current transformer accuracy is only one of the many parameter of interest. Depending on your application you might consider:
+      </p>
+      <ul>
+         <li><b>Nominal currents</b></li>
+         <li><b>Ratio</b></li>
+         <li><b>Accuracy/Linearity</b></li>
+         <li><b>Phase angle error:</b> when measuring energy is important to take in account, and eventually compensate, the phase error of CTs.</li>
+         <li><b>Saturation Voltage / Current:</b> every CT, depending on the burden resistor, will be able to transduce accurately currents up to a maximum point where the error will increase due to saturation.</li>
+         <li><b>DC tolerance:</b> it's known that transformers don't work with DC but, during normal usage, there could be a DC component (coming from single diode rectifier and other electronics). If the transformer is not DC tolerant it will saturate with a consequent reduction in accuracy.</li>
+         <li><b>Openable CT</b></li>
+         <li><b>Mechanical size</b></li>
+         <li><b>Other solutions (Shunt, Hall effect sensors)</b></li>
+         <li><b>Price</b></li>
+         <li><b>...</b></li>
+      </ul>
+      <h2>CTs:</h2>
+
+      <h3 id="SCT013-000">SCT013-000 Openable 100A CT:</h3>
+      <table style="width: 100%;">
+         <caption style="font-weight: bold;">Specs:</caption>
+         <tr>
+            <th>I1n</th><th>I2n</th><th>Ratio</th><th>Linearity</th>
+         </tr>
+         <tr>
+            <td>100 A</td><td>50 mA</td><td>2000</td><td>3 %</td>
+         </tr>
+      </table>
+      <div class="imgRight"><a href="current-transformers-tests/2023-CT-SCT013-000-Sizes.jpg" target="blank"><img src="current-transformers-tests/2023-CT-SCT013-000-Sizes-small.jpg" alt="PkRMS strum internal"></a><br></div>
+      <p>
+         Popular, low price, CT with mediocre accuracy.
+      </p>
+      <ul>
+         <li>Linearity: Mediocre 0.7 %</li>
+         <li>Phase angle error: Mediocre 2.5 / 4 °</li>
+         <li>DC tolerance: Mediocre</li>
+         <li>Price: 4 / 10 €</li>
+      </ul>
+      <p style="clear: both;">
+      </p>
+      <div class="imgCenter">
+         <a href="current-transformers-tests/2023-CT-SCT013-000-Test@I.jpg" target="blank"><img src="current-transformers-tests/2023-CT-SCT013-000-Test@I.jpg" alt="SCT013-000-Test@I" style="width: 100%; max-width: 3000px;"></a>
+         <a href="current-transformers-tests/2023-CT-SCT013-000-Test@I.jpgVout.jpg" target="blank"><img src="current-transformers-tests/2023-CT-SCT013-000-Test@I.jpgVout.jpg" alt="SCT013-000-Test@I" style="width: 100%; max-width: 3000px;"></a>
+      </div>
+
+
+      <h3 id="CTKD-10">CTKD-10 Openable 75A CT:</h3>
+      <table style="width: 100%;">
+         <caption style="font-weight: bold;">Specs:</caption>
+         <tr>
+            <th>I1n</th><th>I2n</th><th>Linearity</th><th>Ratio</th><th>Phase ange Error</th>
+         </tr>
+         <tr>
+            <td>75 A??</td><td>37.5 mA</td><td>0.5 %</td><td>2000</td><td>&lt;1 °</td>
+         </tr>
+      </table>
+      <div class="imgRight"><a href="current-transformers-tests/2023-CT-CTKD-10-Sizes.jpg" target="blank"><img src="current-transformers-tests/2023-CT-CTKD-10-Sizes-small.jpg" alt="PkRMS strum internal"></a><br></div>
+      <p>
+         Good quality, compact, affordable, and accurate openable CT.
+      </p>
+      <ul>
+         <li>Linearity: Good 0.35 %</li>
+         <li>Phase angle error: Ok 1 / 1.2 °</li>
+         <li>Saturation Current: &lt;65A !worse than spec.! </li>
+         <li>DC tolerance: TBD</li>
+         <li>Price: 4 / 10 €</li>
+      </ul>
+      <p style="clear: both;">
+      </p>
+      <div class="imgCenter">
+         <a href="current-transformers-tests/2023-CT-CTKD-10-Test@I.jpg" target="blank"><img src="current-transformers-tests/2023-CT-CTKD-10-Test@I.jpg" alt="CTKD-10-Test@I" style="width: 100%; max-width: 3000px;"></a>
+         <a href="current-transformers-tests/2023-CT-CTKD-10-Test@Vout.jpg" target="blank"><img src="current-transformers-tests/2023-CT-CTKD-10-Test@Vout.jpg" alt="CTKD-10-Test@I" style="width: 100%; max-width: 3000px;"></a>
+      </div>
+
+
+      <h3 id="ZMCT103C">ZMCT103C PCB Mount 10A CT:</h3>
+      <table style="width: 100%;">
+         <caption style="font-weight: bold;">Specs:</caption>
+         <tr>
+            <th>I1n</th><th>I2n</th><th>Linearity</th><th>Ratio</th><th>Phase ange Error</th>
+         </tr>
+         <tr>
+            <td>10 A</td><td>10 mA</td><td>0.2 %</td><td>1000</td><td>&lt;0.25 °</td>
+         </tr>
+      </table>
+      <div class="imgRight"><a href="current-transformers-tests/2023-CT-ZMCT103C-Sizes.jpg" target="blank"><img src="current-transformers-tests/2023-CT-ZMCT103C-Sizes-small.jpg" alt="PkRMS strum internal"></a><br></div>
+      <p>
+         Extremely affordable, accurate PCB mount CT.
+      </p>
+      <ul>
+         <li>Linearity: Very Good 0.2 %</li>
+         <li>Phase angle error: Very Good &lt0.25 °;</li>
+         <li>Saturation Current: &lt;10 / 25 A</li>
+         <li>DC tolerance: Non DC tolerant!</li>
+         <li>Price: &lt;0.70€</li>
+      </ul>
+      <p style="clear: both;">
+      </p>
+      <div class="imgCenter">
+         <a href="current-transformers-tests/2023-CT-ZMCT103C-Test@I.jpg" target="blank"><img src="current-transformers-tests/2023-CT-ZMCT103C-Test@I.jpg" alt="ZMCT103C-Test@I" style="width: 100%; max-width: 3000px;"></a>
+         <a href="current-transformers-tests/2023-CT-ZMCT103C-Test@Vout.jpg" target="blank"><img src="current-transformers-tests/2023-CT-ZMCT103C-Test@Vout.jpg" alt="ZMCT103C-Test@I" style="width: 100%; max-width: 3000px;"></a>
+      </div>
+
+
+      
+      <p class="date">
+         Published: 2023-10-00
+      </p>
+   </div> 
+
+
+
+   <div class="navigation">
+      <nav>
+      <ul>
+         <li class="navHome"><a href="../index.html"><b>HOME</b></a></li>
+         <li><a href="../about-me.html"><b>ABOUT ME</b></a></li>
+         <li><a href="../projects.html"><b>PROJECTS</b></a></li>
+         <li><a href="../test-equipment.html"><b>EQUIPMENTS</b></a></li>
+         <li><a href="../experiments.html"><b>EXPERIMENTS</b></a>
+            <ul>
+               <li><a href="current-transformers-tests.html">CTs accuracy</a></li>
+               <li><a href="../experiments.html">more...</a></li>               
+            </ul></li>
+      </ul>
+      </nav>
+   </div>
+
+
+
+   <div class="footer">
+      <p>
+         <a href="../terms.html">Terms</a></h3>&nbsp;&nbsp;&nbsp; <a href="../privacy.html">Privacy</a></h3>&nbsp;&nbsp;&nbsp;
+      </p>
+   </div>
+
+
+
+</div>
+</body>
+</html>
