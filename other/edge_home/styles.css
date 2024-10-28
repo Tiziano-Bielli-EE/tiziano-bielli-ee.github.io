@@ -37,7 +37,7 @@ body{
 
  .article {
    grid-area: content;
-   background-color: #3a3a2d;
+   background-color: #303126;
    padding: 20px;
    padding-right: 30px;
    font-size: 20px;
