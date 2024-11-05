@@ -128,7 +128,7 @@ h1 {
 .imgCenterBox{        /* > **/
   display: inline-block;
   /*width: 200px;
-  height: 200px;*/
+  height: 100px;*/
   position: relative;
   font-family: Arial;
   font-size: 20px;
@@ -137,6 +137,10 @@ h1 {
 
 a.imgCenterBox{
   text-decoration: none;
+}
+
+.imgCenterBox  img{
+  width: 200px;
 }
 
 .imgCenterText-bottom{
@@ -148,6 +152,7 @@ a.imgCenterBox{
   background: rgba(254, 253, 240, 0.6);
   transform: translate(-50%)
 }
+
 /*_________________________________________________________________________________________________________________________*/
 .imgRight{
   float: right;
