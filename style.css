@@ -12,6 +12,7 @@ body{
    padding: 15px;
    font-size: 10px;
    text-align: center;
+   background-size: 100% auto;
  }
  .header > mark{
    background-color: #ffffe6;
