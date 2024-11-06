@@ -141,6 +141,7 @@ a.imgCenterBox{
 
 .imgCenterBox  img{
   width: 200px;
+  height: auto;
 }
 
 .imgCenterText-bottom{
